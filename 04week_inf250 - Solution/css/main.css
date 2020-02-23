@@ -1,0 +1,117 @@
+* {
+	box-sizing: border-box;
+	
+}
+html, body {
+	 margin: 0;
+	 margin: 10px 0px;
+	border: 1px solid #000;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+html {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	font-size: 18px;
+	background-color: whitesmoke;
+}
+
+body {
+	width: 100%;
+	max-width: 600px;
+	font-family: Arial, Helvetica, sans-serif;
+	/*display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;*/
+	background: rgb(0,0,0);
+	background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(253,187,45,1) 65%, rgba(255,255,255,1) 100%);
+}
+
+
+header h1 {
+	margin-bottom: 0;
+}
+
+header img {
+	float: left;
+	height: 80px;
+	border: 3px double #000;
+	border-radius: 50%;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+main {
+	margin: 10px 0px;
+	border: 1px solid #000;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+#ticketInfo {
+	margin: 10px 0px;
+	border: 1px solid #000;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: white;
+}
+
+#quote {
+	background-color: #000;
+	border: 1px solid #fff;
+}
+
+blockquote {
+	margin: 10px;
+	border: 3px double black;
+	border-radius: 10px;
+	background-color: white;
+	padding: 10px;
+	text-align: center;
+}
+
+#disclaimer p {
+	font-size: 0.8rem;
+	margin-bottom: 0;
+}
+
+footer {
+	margin: 10px 0px;
+	border: 1px solid #000;
+	padding: 10px;
+	border-radius: 10px;
+	color: #f6a41e;
+	font-size: 0.8em;
+	p-top-margin: 5px;
+}
+
+.shadow {
+	text-shadow: 2px 2px 2px #F6A41E; /* #F6A41E or #F9B94C */
+}
+
+#ticketPrices{
+	margin: 10px 0px;
+	border: 1px solid #000;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: white;
+}
+
+#ticketPrices img {
+	float: right;
+	width: 200px;
+	margin-right: 30px;
+}
+
+#disclaimer {
+	margin: 10px 0px;
+	border: 1px solid #000;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: white;
+}
